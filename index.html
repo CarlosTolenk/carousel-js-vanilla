@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel CTolenk</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="slider-btn-arrow slider-btn-holder-arrow">
+        <button id="left-btn" class="slider-btn">
+            <svg viewBox="0 0 256 256">
+                <polyline fill="none" stroke="black" stroke-width="16" points="184,16 72,128 184,240"></polyline>
+            </svg>
+        </button>
+    </div>
+
+    <div id="carousel" class="container-carousel"></div>
+
+
+    <div class="slider-btn-arrow slider-btn-arrow-right">
+        <button id="right-btn" class="slider-btn">
+            <svg viewBox="0 0 256 256">
+                <polyline fill="none" stroke="black" stroke-width="16" points="72,16 184,128 72,240"></polyline>
+            </svg>
+        </button>
+    </div>
+
+    <div class="container-palette">
+        <select id="selected-color" value="1">
+            <option value="yellow">Yellow</option>
+            <option value="black">Black</option>
+            <option value="purple">Purple</option>
+        </select>
+        <button id="add-color">Add New Color</button>
+    </div>
+
+
+</div>
+<script type="application/javascript" src="js/carousel.js"></script>
+</body>
+</html>

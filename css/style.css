@@ -1,0 +1,108 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 95%;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.home-product-new {
+    width: 1140px;
+    overflow: hidden;
+}
+
+.home-grid.products-grid.products-grid--max-4 {
+    transition: -ms-transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s, transform 0.5s ease 0s;
+    position: relative;
+    white-space: nowrap;
+}
+
+
+.button-indication {
+    padding: 0.3rem;
+    font-size: 17px;
+    margin: 0 5px;
+}
+
+.container-indication {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.circle-indication {
+    width: 2px;
+    height: 2px;
+    opacity: 0.4;
+    padding: 0.3rem;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.slider-btn-holder-arrow {
+    left: 15%;
+}
+
+.slider-btn-arrow-right {
+    right: 15%;
+}
+
+.slider-btn-arrow {
+    bottom: 0;
+    display: block;
+    padding: 0;
+    width: 24px;
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+}
+
+.slider-btn {
+    background-color: transparent;
+    border: 0 none;
+    color: buttontext;
+    cursor: pointer;
+    display: block;
+}
+
+#left-btn {
+    display: none;
+}
+
+.slider-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.container-carousel {
+    width: 900px;
+    overflow: hidden;
+}
+
+.wrapper-carousel {
+    transition: -ms-transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s, transform 0.5s ease 0s;
+    position: relative;
+    white-space: nowrap;
+}
+
+.square {
+    display: inline-block;
+    margin: 1rem;
+    vertical-align: top;
+    width: 274px;
+    height: 274px;
+}
