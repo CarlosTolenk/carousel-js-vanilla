@@ -1,0 +1,24 @@
+.btn{
+  position: relative;
+  padding: 0.4rem 0;
+  padding-left: 1.8rem;
+  padding-right: 1rem;
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    display:inline-block;
+    height:25px;
+    width:25px;
+    background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png') no-repeat 0 0;
+    background-size: 25px 25px;
+  }
+}
+
+.btn-primary{
+  background: #428CDF;
+  color: white;
+  font-size: 1rem;
+}
